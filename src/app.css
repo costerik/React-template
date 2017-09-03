@@ -1,0 +1,43 @@
+
+
+.logo{
+  background: url('../images/git.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  top: 30%;
+  left: 50%;
+  margin-top: -50px; /*set to a negative number 1/2 of your height*/
+  margin-left: -50px; /*set to a negative number 1/2 of your width*/
+  position: fixed;
+}
+
+.login{
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: -100px; /*set to a negative number 1/2 of your height*/
+    margin-left: -100px; /*set to a negative number 1/2 of your width*/
+    position: fixed;
+}
+
+.login > *{
+  display: block;
+  width: 100%;
+}
+
+.login button{
+  margin-top: 10px; 
+}
+
+/*html { 
+  background: url('../images/backgroundTest.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
